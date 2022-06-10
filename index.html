@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+	<title>Thamatheel - Home</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Thamatheel"/>
+    <meta name="author" content="Thamatheel"/>
+    <link rel="icon" href="imgs/browser.svg" sizes="32x32">
+
+    <!--Browser optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Style-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/anime.css">
+  </head>
+
+  <body onload="loaded()" >
+    
+    <div class="loader">
+        <img src="./imgs/loading_logo.svg" alt="logo">
+        <svg width="200" height="200" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ripple" style="background:0 0">
+            <circle cx="50" cy="50" r="4.719" fill="none" stroke="#41238c" stroke-width="4"><animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1" begin="-1.5s" repeatCount="indefinite"/><animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1" begin="-1.5s" repeatCount="indefinite"/></circle><circle cx="50" cy="50" r="27.591" fill="none" stroke="#41238c" stroke-width="4"><animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1" begin="0s" repeatCount="indefinite"/></circle>
+        </svg>
+    </div>
+
+    <header id="header">
+        <nav class="transparent z-depth-0" >
+            <div class="nav-wrapper container">
+
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="services.html" >Our Sevices</a><hr></li>
+                    <li><a href="career.html" >Careers</a><hr></li>
+                    <li><a href="about.html" >About Us</a><hr></li>
+                    <li><a href="contact.html" >Contact Us</a><hr></li>
+                    <li><a href="index_ar.html" class="AR waves-effect waves-light btn">AR</a></li>
+                </ul>
+
+
+                <a href="index.html" class="brand-logo left"><img src="./imgs/logo.svg" class="responsive-img" alt="logo"></a>
+                <a data-target="slide-out" class="sidenav-trigger right"><img src="./imgs/menu_1.svg"   alt="menu"></a>   
+
+                <div class="sidenav" id="slide-out">
+                    <ul>
+                        <li><img src="./imgs/loading_logo.svg" class="responsive-img" alt="logo"></li>
+                        <li><a href="services.html" class="waves-effect waves-light btn">Our Sevices</a></li>
+                        <li><a href="career.html" class="waves-effect waves-light btn">Careers</a></li>
+                        <li><a href="about.html" class="waves-effect waves-light btn">About Us</a></li>
+                        <li><a href="contact.html" class="waves-effect waves-light btn">Contact Us</a></li>
+                        <li><a href="index_ar.html" class="waves-effect waves-light btn">ARABIC</a></li>
+                    </ul>
+                </div>
+
+
+      
+            </div>
+        </nav>
+
+        <div class="content container" id="wrapper">
+            <div class="row ">
+                <h1>We help companies <br>organize and manage events</h1>
+                <h3>Let's make your event happen!</h3>
+                <a href="./contact.html" class="waves-effect waves-light btn deep-purple lighten-1 btn_submt">GET IN TOUCH</a>
+            </div>
+        </div>
+    </header>
+
+    <!--ABOUT-->
+    <section class="aboutt" id="about">
+        <div class="row reveal fade-bottom">
+            <div class="title center ">
+                <h3><b>ABOUT US</b></h3>
+                <hr>
+            </div>
+            <p class="flow-text center">Tamatheel  is an event management and consultancy company.  We provide an event planning and marketing communication. With an experience in a vast range of events, Tahmatheel plans and delivers world class events and programs of all sizes in Saudi Arabia.</p>
+            <a href="about.html"  class="flow-text center"><i class="material-icons prefix">add_circle</i>Read More</a>
+    
+        </div>
+    </section>
+    <!--/ABOUT-->
+
+    <!--SERVICES-->
+    <article class="container" id="services" >
+        <div class="row services">
+            <div class="title center reveal fade-bottom">
+                <h3><b>OUR SEVICES</b></h3>
+                <hr>
+            </div>
+
+            <a href="#" class="col l3 m6 s6 center reveal fade-left">
+                <img src="./imgs/services/events.svg" alt="event_icon" class="responsive-img">
+                <p class="flow-text">Event<br>Consultation</p>
+            </a>
+            <a href="#" class="col l3 m6 s6 center reveal fade-bottom">
+                <img src="./imgs/services/media_production.svg" alt="event_icon" class="responsive-img">
+                <p class="flow-text">Media<br>Production</p>
+            </a>
+            <a href="#" class="col l3 m6 s6 center reveal fade-bottom">
+                <img src="./imgs/services/public_relations.svg" alt="event_icon" class="responsive-img">
+                <p class="flow-text">Public<br>Relations</p>
+            </a>
+            <a href="#" class="col l3 m6 s6 center reveal fade-right">
+                <img src="./imgs/services/tech_solutions.svg" alt="event_icon" class="responsive-img">
+                <p class="flow-text">Innovation<br>Technical Solutions</p>
+            </a>
+
+
+            <a href="#" class="col l3 m6 s6 center reveal fade-left  clear">
+                <img src="./imgs/services/crowd.svg" alt="event_icon" class="responsive-img">
+                <p class="flow-text">Crowd<br>Management</p>
+            </a>
+            <a href="#" class="col l3 m6 s6 center reveal fade-bottom">
+                <img src="./imgs/services/project_managmnt.svg" alt="event_icon" class="responsive-img">
+                <p class="flow-text">Project<br>Management</p>
+            </a>
+            <a href="#" class="col l3 m6 s6 center reveal fade-bottom">
+                <img src="./imgs/services/event_prod.svg" alt="event_icon" class="responsive-img">
+                <p class="flow-text">Events<br>Production</p>
+            </a>
+            <a href="#" class="col l3 m6 s6 center reveal fade-right">
+                <img src="./imgs/services/trade.svg" alt="event_icon" class="responsive-img">
+                <p class="flow-text">Trade Fair<br>Management</p>
+            </a>
+        </div>
+    </article>
+    <!--/SERVICES-->
+
+    <footer class="page-footer" >
+        <div class="container">
+            <div class="row">
+
+                <div class="col l12 m12 s12 reveal fade-bottom"><img src="imgs/logo.png" class="responsive-img logo" alt="logo"></div>
+
+                <div class="col l6 m6 s12 reveal fade-bottom" id="footer">
+                    <h3 class="white-text"><b>Contact Us</b></h3>
+                    <ul>
+                        <li><a href="#"><i class="material-icons prefix">mail</i>Contact@tamatheel.com</a></li>
+                        <li><a href="#"><i class="material-icons prefix">pin_drop</i>View on Google Map</a></li>
+                        <li><a href="#"><i class="material-icons prefix">phone</i>0013 - 0452 - 6790</a></li>
+                        <li><a href="#"><img src="imgs/Whatsapp.svg" alt="whatsapp">+966 55 400 6784</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col l6 m6 s12 reveal fade-bottom" >
+                    <h3 class="white-text"><b>Useful Links</b></h3>
+                    <ul>
+                    <li><a href="about.html" class="" href="#!">About Us</a></li>
+                    <li><a href="services.html" class="" href="#!">Our Services & Solutions</a></li>
+                    <li><a href="career.html" class="" href="#!">Careers</a></li>
+                    </ul>
+                </div>
+
+
+                <ul class="col l12 m12 s12 social_media reveal fade-bottom" >
+                    <li><a href="#!" class=""><img src="imgs/twi.svg" alt="twi"></a></li>
+                    <li><a href="#!" class=""><img src="imgs/insta.svg" alt="twi"></a></li>
+                </ul>
+
+            </div>
+          </div>
+
+
+
+
+          <div class="footer-copyright" id="footer">
+            <div class="container center">ALL COPYRIGHTS RESERVED FOR <img src="./imgs/logo.svg">  Ⓒ 2022</div>
+          </div>
+    </footer>
+
+    <div class="scroll">
+        <li><a href="#header" class="white-text" class="white-text" >●</a></li>
+        <li><a href="#about" class="white-text" >●</a></li>
+        <li><a href="#services" class="white-text" >●</a></li>
+        <li><a href="#footer" class="white-text" >●</a></li>
+    </div>
+
+    <script>
+
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js" integrity="sha512-wstvQlySDtT//3yKfbxpy8AS5b4UQ0tnItav8dGCVLGO3u/Ymb6mUEgVzDL8a/DXdtiuhsTj2ElDsXQ+E2cDYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="js/scroll.js"> </script>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="js/jquery.min.js"></script>    
+    <!--<script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.3/jquery.scrollTo.min.js"></script>-->
+    <script src="js/scripts.js"> </script>
+    <script src="js/animate.js"> </script>
+    <script src="js/loading.js"> </script>
+
+
+    <script src="js/materialize.min.js"></script>
+
+
+    </script>
+  </body>
+</html>

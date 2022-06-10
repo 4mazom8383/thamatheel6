@@ -1,0 +1,72 @@
+.reveal {
+    position: relative;
+    opacity: 0;
+    transition: all 1.5s ease-in-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    
+}
+
+.active.fade-bottom {
+    animation: fade-bottom 2s cubic-bezier(0.62, 0.05, 0.01, 0.99);
+}
+.active.fade-left {
+    animation: fade-left 2s cubic-bezier(0.62, 0.05, 0.01, 0.99);
+}
+
+.active.fade-right {
+    animation: fade-right 2s cubic-bezier(0.62, 0.05, 0.01, 0.99);
+}
+
+
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fade-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+.loader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background:#1F1243;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999999999999999;
+    transition: opacity 0.1s ease-in-out;
+  }

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&');
+*,input{font-family: 'Cairo', sans-serif;}
+
+
+/*FOOTER*/
+footer, .about_ar, .file-path-wrapper>input{text-align: right!important;}
+footer a{justify-content: right;}
+.footer-copyright>div{justify-content: center!important; text-align: center !important;}
+.page-footer{background-color: #1f1044!important ;}
+footer a i, footer a img{margin-left: 12px;margin-right: 0px;}
+
+/*CONTACT FORM*/
+form label, form textarea{text-align: right !important;}
+form, input{font-weight: bold;}
+.input-field.col label{left: -1.25rem !important;}
+.txt_area{right: 1em;}
+.file-field div:first-of-type{margin-left: 1em;}
+.date{right: 2rem !important;}
+/*About AR*/
+.about_ar .title h3, .title h3{letter-spacing: 0;text-align: center;}
+.about_ar .title hr{position: absolute!important;right: 0;}
+
+/*NAV*/
+#slide-out ul li a{justify-content: right;}
+
+/*FORM CAREER*/
+.form_contact form>div{padding: 0em 2em;}
+
+.input-field>input{margin-left: 0rem!important;}
+.input-field>label{margin-left: 2.4rem!important;}
+
+input.valid[type=text]:not(.browser-default), textarea{text-align: right;}
+
+.selecter {display: flex; align-items: center;clear: both;}
+
+.select-dropdown, .dropdown-trigger{text-align: right!important;}.caret{left: 0!important;}
+.select-wrapper{width: 100%;margin-right: 1em;}
+
+.brand-logo{float: right !important;right: 0;}
+
+@media only screen and (max-width: 992px) {
+    nav .sidenav-trigger{float: right !important;}
+
+    .nav-wrapper .brand-logo{float: left !important;}
+}
+
+
+.scroll{left: 3vw !important;}
